@@ -1,6 +1,7 @@
 {
     "name": "1014573565/tb_csv_import",
     "description": "淘宝产品csv文件导入",
+    "type": "library",
     "authors": [
         {
             "name": "xi",
@@ -15,5 +16,7 @@
         "psr-4": {
             "Tb\\": "src/"
         }   
-    }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
 }
