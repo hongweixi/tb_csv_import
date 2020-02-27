@@ -1,0 +1,19 @@
+{
+    "name": "1014573565/tb_csv_import",
+    "description": "淘宝产品csv文件导入",
+    "authors": [
+        {
+            "name": "xi",
+            "email": "1014573565@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+    	"files": [
+            "src/Helper.php"
+        ],
+        "psr-4": {
+            "Tb\\": "src/"
+        }   
+    }
+}
